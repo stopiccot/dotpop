@@ -67,6 +67,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ab6e21d5bba44f3a9b1ea74f51c6394, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  popCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0.99502563
+      inSlope: 0.009665984
+      outSlope: 0.009665984
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.5
+      value: 5
+      inSlope: -0.015088837
+      outSlope: -0.015088837
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0.04178328
+      outSlope: 0.04178328
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  popDuration: 1
+  defaultR: 1.5
+  popping: 0
+  scale: 1
+  popTime: 0
 --- !u!222 &222004982486739942
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -89,5 +118,5 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 5, y: 5}
+  m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
